@@ -558,7 +558,7 @@ left: 457px;
   #contact{
     height: 100vh;
     min-height: 500px;
-    /* background: url('/assets/lines9.PNG') no-repeat  right ; */
+    background: url('/assets/lines9.PNG') no-repeat  right ;
     background-size: cover;
  background-color: #202124;
     
