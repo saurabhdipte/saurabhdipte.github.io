@@ -9,7 +9,9 @@
   .threepics{
       position: absolute;
   }
-  
+  body{
+    width: 100%;
+  }
  .divabc{
      padding-left: 100px;
      left: 10px;
@@ -234,6 +236,7 @@
   section {
     background: #202124;
     padding-bottom: 50px;
+    
   }
   
   .section-title {
@@ -459,7 +462,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 90px;
+    margin-top: 185px;
   }
   
   .contact-form input,
@@ -501,10 +504,15 @@
     content: "";
     position: absolute;
     height: 250px;
-    margin-top: 20px;
+    margin-top: 7px;
     background-color: #ffa588;
     border-radius: 3px;
-    left: calc(67% - 200px);
+    left: 880px;
+    
+  }
+  .contact-info{
+    margin-top: 200px;
+    /* padding-left: px; */
   }
   
   .contact-info .item {
@@ -513,13 +521,15 @@
     border-radius: 50px;
     color: #fff;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 2px;
     transition: 0.3s linear;
+
   }
   
   .contact-head {
     padding-bottom: 10px;
     color: #ffa588;
+    
   }
   
   .contact-icon img {
@@ -556,7 +566,7 @@ left: 457px;
     left: 507px;
   }
   #contact{
-    height: 100vh;
+    height: 135vh;
     min-height: 500px;
     background: url('/assets/lines9.PNG') no-repeat  right ;
     background-size: cover;
@@ -841,11 +851,24 @@ left: 200px;
       margin: 40px -344px;
     }
     .contact-info,.item{
-      display: none;
+      position: relative;
+      top: 96px;
+      left: 35px;
+    }
+    .contact-info::before {
+      width: 2px;
+      content: "";
+      position: absolute;
+      height: 252px;
+      margin-top: 105px;
+      background-color: #ffa588;
+      border-radius: 3px;
+      left: -5px;
     }
   }
   
   @media screen and (max-width: 600px) {
+    
     .inner-width {
       padding: 0 20px;
     }
@@ -861,5 +884,25 @@ left: 200px;
     }
     section{
       overflow: hidden;
+    }
+    /* body{
+      width: 100%;
+    } */
+    .navbar{
+      width: 100%;
+    }
+    .menu-toggler {
+      display: block;
+      position: absolute;
+left: 313px;
+    }
+    .goTop{
+      left: 435px;
+    }
+    .contact-info{
+      margin-top: 23px;
+    }
+    .navbar-menu.active {
+      right: 25%;
     }
   }
