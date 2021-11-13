@@ -872,6 +872,31 @@ left: 200px;
     .inner-width {
       padding: 0 20px;
     }
+    /* .service,.serviceMid{
+      margin:  25px 0px;
+    } */
+    .boxcenter{
+      border-radius: 7px;
+      margin: 50px 50px 50px 8px;
+      position: relative;
+      left: 5px;
+      box-shadow: 0px 0px 5px 5px #ffa588;
+
+    }
+    .boxleft{
+      border-radius: 7px;
+    margin: 50px 50px 50px 8px;
+    position: relative;
+      left: 5px;
+      box-shadow: 0px 0px 5px 5px #ffa588;
+    }
+    .boxright{
+    border-radius: 7px;
+    margin: 50px 50px 50px 8px;
+    position: relative;
+      left: 5px;
+      box-shadow: 0px 0px 5px 5px #ffa588;
+       }
   
     .content {
       width: calc(50% - 20px);
