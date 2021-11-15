@@ -615,6 +615,12 @@ left: 200px;
     #footer1id,#footer2id,#footer3id{
       display: none;
     }
+    
+      #about{
+        background: none;
+        background-color: #202124;
+      }
+    
   
     .navbar-menu {
       position: fixed;
@@ -751,17 +757,17 @@ left: 200px;
     .boxcenter{
       position: relative;
       top: 50px;
-      
+      margin-top: -18px;
     }
     .boxleft{
       position: relative;
       top: 100pxpx;
-      
+    
     }
     .boxright{
       position: relative;
       top: 58px;
-      
+      margin-top: 32px;
     }
 
   
@@ -919,7 +925,7 @@ left: 200px;
     .menu-toggler {
       display: block;
       position: absolute;
-left: 313px;
+      left: 313px;
     }
     .goTop{
       left: 435px;
@@ -930,4 +936,63 @@ left: 313px;
     .navbar-menu.active {
       right: 25%;
     }
-  }
+    #home{
+      height: 70vh;
+      background: none;
+      background-color: #202124;
+    }
+    #about{
+      background: none;
+      background-color: #202124;
+    }
+     #service .titleSection{
+      font-size: 60%;
+      width: 50px;
+    }
+    .contact-info {
+      position: absolute;
+      margin-top: 4365px;
+      padding-left: 31px;
+    }
+    .contact-info::before{
+      display: none;
+    }
+    .client-text{
+      position: relative;
+      left: -323px;
+    }
+    .titleSection{
+      font-size: 20px;
+    }
+    #contactcircleleft{
+      position: relative;
+      left: -77px;
+      
+      
+    }
+    #contactcircleright{
+      position: relative;
+      left: 77px;
+    }
+    #clientcircleleft{
+      position: relative;
+      left: -171px;
+      width: 60px;
+    }
+    #clientcircleright{
+      position: relative;
+      left: 169px;
+      width: 53px;
+    }
+    #servicescircleleft{
+      position: relative;
+      left: -135px;
+      width: 73px;
+    }
+    #servicescircleright{
+      position: relative;
+      left:125px;
+      width: 74px;
+    }
+}
+
